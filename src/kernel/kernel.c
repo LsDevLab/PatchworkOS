@@ -40,6 +40,8 @@ static void kernel_free_boot_data(efi_mem_map_t* memoryMap)
     }
 }
 
+// KERNEL INIT
+
 void kernel_init(boot_info_t* bootInfo)
 {
     gdt_init();
