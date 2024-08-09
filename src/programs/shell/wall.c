@@ -13,8 +13,7 @@ static uint64_t procedure(win_t* window, const msg_t* msg)
         rect_t rect;
         win_client_rect(window, &rect);
 
-        gfx_rect(&gfx, &rect, 0xFF007E81);
-        // gfx_rect(&gfx, &rect, 0xFF427F99);
+        gfx_rect(&gfx, &rect, 0xFF427F99);
 
         win_draw_end(window, &gfx);
     }
